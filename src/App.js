@@ -2,6 +2,27 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+var todos = [
+  {
+    todoTitle: 'My first todo',
+    todoResponsible: 'Sebastian',
+    todoDescription: 'My first todo description',
+    todoPriority: 'low'
+  },
+  {
+    todoTitle: 'My second todo',
+    todoResponsible: 'Sebastian',
+    todoDescription: 'My first todo description',
+    todoPriority: 'medium'
+  },
+  {
+    todoTitle: 'My third todo',
+    todoResponsible: 'Sebastian',
+    todoDescription: 'My first todo description',
+    todoPriority: 'high'
+  }
+];
+
 class App extends Component {
   render() {
     return (
@@ -9,7 +30,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/App.js</code> and save to reload. It means here
           </p>
           <a
             className="App-link"
