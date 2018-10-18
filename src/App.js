@@ -5,19 +5,19 @@ import './App.css';
 var todos = [
   {
     todoTitle: 'My first todo',
-    todoResponsible: 'Sebastian',
+    todoResponsible: 'Yadnyesh',
     todoDescription: 'My first todo description',
     todoPriority: 'low'
   },
   {
     todoTitle: 'My second todo',
-    todoResponsible: 'Sebastian',
+    todoResponsible: 'Yadnyesh',
     todoDescription: 'My first todo description',
     todoPriority: 'medium'
   },
   {
     todoTitle: 'My third todo',
-    todoResponsible: 'Sebastian',
+    todoResponsible: 'Yadnyesh',
     todoDescription: 'My first todo description',
     todoPriority: 'high'
   }
